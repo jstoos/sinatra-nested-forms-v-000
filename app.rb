@@ -20,7 +20,7 @@ module FormsLab
       #
       # @ships = Ship.all
       "Hello"
-      #erb :show
+      erb :show
     end
 
   end
