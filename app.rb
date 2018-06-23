@@ -4,8 +4,8 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/' do
-      <h1>Welcome to the Nested Forms Lab!</h1>
-      <h1>"let's navigate to the '/new'"</h1>
+      puts "Welcome to the Nested Forms Lab!"
+      puts "let's navigate to the '/new'"
       erb :new
     end
 
