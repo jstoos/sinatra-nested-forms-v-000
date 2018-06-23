@@ -1,6 +1,6 @@
 require './environment'
 
-#module FormsLab
+module FormsLab
   class App < Sinatra::Base
 
     get '/' do
@@ -20,4 +20,4 @@ require './environment'
     end
 
   end
-#end
+end
