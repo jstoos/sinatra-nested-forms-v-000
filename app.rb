@@ -6,6 +6,9 @@ module FormsLab
     get '/' do
       puts "Welcome to the Nested Forms Lab!"
       puts "let's navigate to the '/new'"
+    end
+
+    get '/new' do
       erb :new
     end
 
