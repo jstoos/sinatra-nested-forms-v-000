@@ -19,7 +19,6 @@ module FormsLab
       # end
       #
       # @ships = Ship.all
-      "Hello"
       erb :show
     end
 
